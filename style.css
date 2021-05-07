@@ -1,0 +1,172 @@
+
+
+body
+{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* title section */
+
+.title
+{
+  padding: 1% 10% 6%;
+  background-color: #1e6f5c;
+  text-align: center;
+  color:#fff;
+
+}
+
+.title-text
+{
+  font-family: 'Cardo', serif;
+  font-size:5.5rem;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.animate-heading
+{opacity:0.5}
+
+/* navbar section */
+
+.navbar{
+  padding: 20px 0 100px ;
+}
+
+.navbar-item
+{
+  margin: 0 0 0 10px;
+}
+/* animal section */
+
+.animal-headings
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  color:grey;
+  font-weight: bold;
+}
+.animal-headings:hover{
+  color: #34656d;
+}
+
+.animal-sub-text
+{
+  font-family: 'Josefin Sans', sans-serif;
+  color:grey;
+
+}
+.animal-left
+{
+  width: 80%;
+  height: 80%;
+  margin: 0 10px 20px 0;
+}
+
+.animal-right
+{
+  width: 80%;
+  height: 80%;
+  margin: 10px 0 10px 40px;
+}
+
+.mobile-animal
+{
+  display: none;
+}
+
+.animals-section
+{
+  padding: 3% 15%;
+}
+
+
+.animal-row
+{
+  margin: 50px 0;
+  text-align: left;
+}
+
+/* support section */
+.animal-support
+{
+  background-color: #289672;
+  text-align: center;
+  padding: 3% 15%;
+
+}
+
+.support-head-text
+{
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+}
+
+.animal-support-text
+{
+  padding: 2% 0;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* gaming section */
+.animal-identifier
+{
+  text-align: center;
+  padding: 3% 15%;
+}
+.animal_game_image
+{
+  width:80%;
+  max-height:100%;
+}
+
+
+.animal-gaming-text
+{
+  font-size: 3.5rem;
+  font-family: 'Cardo', serif;
+  margin: 10px 0px 80px;
+}
+
+
+.winner-title
+{
+  padding: 20px;
+  color:#1e6f5c;
+}
+
+@media(max-width:920px)
+{
+  .title-text
+  {
+    font-family: 'Cardo', serif;
+    font-size:2.5rem;
+    letter-spacing: 1px;
+    padding: 10px;
+  }
+
+
+  .animal-left
+  {
+    width: 80%;
+    height: 80%;
+
+  }
+
+  .animal-right
+  {
+    width: 80%;
+    height: 80%;
+
+  }
+
+  .support-head-text
+  {
+    font-size: 2.5rem;
+
+  }
+}
