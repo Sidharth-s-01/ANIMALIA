@@ -28,15 +28,15 @@ set
 function musicplay(clas){
   switch (clas) {
     case "tiger":
-      var audio1=new Audio("sounds/tiger.mp3");
+      var audio1=new Audio("tiger.mp3");
       audio1.play();
       break;
     case "lion":
-      var audio2=new Audio("sounds/lion.mp3");
+      var audio2=new Audio("lion.mp3");
       audio2.play();
       break;
     case "elephant":
-        var audio3=new Audio("sounds/ELEPHANT.WAV");
+        var audio3=new Audio("ELEPHANT.WAV");
         audio3.play();
         break;
     default:
