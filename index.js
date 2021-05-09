@@ -40,7 +40,7 @@ function musicplay(clas){
         audio3.play();
         break;
       case "bear":
-        var audio3=new Audio("sounds/bear.mp3");
+        var audio3=new Audio("bear.mp3");
         audio3.play();
     default:
 
