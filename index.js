@@ -39,6 +39,9 @@ function musicplay(clas){
         var audio3=new Audio("ELEPHANT.WAV");
         audio3.play();
         break;
+      case "bear":
+        var audio3=new Audio("sounds/bear.mp3");
+        audio3.play();
     default:
 
   }
